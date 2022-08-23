@@ -90,3 +90,56 @@ a{
     background-position: center;
     background-size: contain
 }
+
+/*YOUTUBE SECTION*/
+
+.youtube{
+    padding: 50px 20px;
+    background-color: rgba(11, 175, 200);
+    color: white;
+}
+
+.youtube__title{
+    margin-bottom: 20px;
+    border-bottom: 3px solid ;
+}
+
+.yotube__subtitle{
+    margin-bottom: 20px;
+}
+
+.videos__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video__card{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.video__title{
+    color: black;
+}
+
+.video__image{
+    width: 100%;
+}
+
+.videos__buttoms{
+    display: flex;
+    justify-content: space-around;
+}
+
+.videos__buttom{
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 3px;
+    font-weight: bold;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
