@@ -1,7 +1,15 @@
-const menuIcon = document.querySelector(".menu__icon");
-const panelIcons = document.querySelector(".nav__items");
-const arrow = document.querySelector("back__image");
+const menuButtom = document.querySelector(".nav__menu");
+const menuItem = document.querySelectorAll(".nav__item");
 
-menuIcon.addEventListener("click", () => {
-    console.log("click")
+menuItem,addEventListener("click",()=>{
+
 })
+
+menuButtom.addEventListener("click",()=>{
+    let menuItems = document.querySelector(".nav__items").classList.toggle("active");
+
+    let hamburguerIcon = document.querySelector(".menu__icon").classList.toggle("hide");
+
+    let arrrowIcon = document.querySelector(".back__icon").classList.toggle("show");
+})
+
