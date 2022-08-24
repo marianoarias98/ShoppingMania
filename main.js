@@ -1,10 +1,7 @@
-const menuIcon = document.querySelector("menu__icon");
+const menuIcon = document.querySelector(".menu__icon");
 const panelIcons = document.querySelector(".nav__items");
 const arrow = document.querySelector("back__image");
 
-
-
-menuIcon, addEventListener("click", () => {
-    panelIcons.classList.toggle("nav__active")
+menuIcon.addEventListener("click", () => {
+    console.log("click")
 })
-
