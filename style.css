@@ -39,7 +39,7 @@ a {
     left: 0;
     background-color: white;
     width: 100%;
-    height: 50%;
+    height: 100%;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
@@ -70,8 +70,9 @@ a {
 }
 
 .hero {
-    /* height: 55vh; */
-    background-image: url(images/Header.jpg);
+    height: 100vh;
+    background: linear-gradient(to right, rgba(11, 175, 200, 0.70), rgba(11, 175, 200, 0.20)), url(Images/Header.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -79,7 +80,8 @@ a {
 .hero__container {
 
     color: white;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    font-size: 1.2rem;
 }
 
 .hero__title {
@@ -95,7 +97,8 @@ a {
 .hero__button {
     color: white;
     padding: 8px;
-    background-color: rgba(11, 175, 200, 0.8);
+    background-color: #a83bc8;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
     font-weight: bold;
 }
