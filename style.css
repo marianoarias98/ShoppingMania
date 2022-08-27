@@ -70,7 +70,7 @@ a {
 }
 
 .hero {
-    height: 100vh;
+    height: 95vh;
     background: linear-gradient(to right, rgba(11, 175, 200, 0.70), rgba(11, 175, 200, 0.20)), url(Images/Header.jpg);
     background-position: center;
     background-size: cover;
@@ -173,6 +173,7 @@ a {
 }
 
 .video__title {
+    cursor: pointer;
     color: black;
 }
 
@@ -193,6 +194,7 @@ a {
     border-radius: 3px;
     font-weight: bold;
     box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    margin: 0 5px;
 }
 
 /*FOOTER*/
@@ -216,4 +218,27 @@ footer {
 
 .contact__icon {
     margin-right: 10px;
+}
+
+@media (min-width:768px){
+    .nav__items{
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__item{
+        padding: 0 10px;
+    }
+
+    .nav__menu{
+        display: none;
+    }
+
+    .hero{
+        height: 50vh;
+    }
+
+    .videos__buttoms{
+        justify-content: end;
+    }
 }
