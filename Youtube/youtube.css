@@ -69,91 +69,17 @@ a {
     font-weight: 900;
 }
 
-.hero {
-    height: 95vh;
-    background: linear-gradient(to right, rgba(11, 175, 200, 0.70), rgba(11, 175, 200, 0.20)), url(Images/Header.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+/*videos*/
 
-.hero__container {
-
-    color: white;
-    letter-spacing: 4px;
-    font-size: 1.2rem;
-}
-
-.hero__title {
-    margin-bottom: 20px;
-    font-size: 2.5rem;
-}
-
-.hero__paragraph {
-    width: 70%;
-    margin-bottom: 40px;
-}
-
-.hero__button {
-    color: white;
-    padding: 8px;
-    background-color: #a83bc8;
-    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-    font-weight: bold;
-}
-
-/*CATEGORIES*/
-
-.categories {
+.videos{
     background-color: #fafafa;
 }
 
 
-.categories__title {
+.youtube__title, .youtube__paragraph {
     margin-bottom: 20px;
 }
 
-.categories__Cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.categorie__item {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 5px;
-    width: 100%;
-    padding: 20px;
-    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-    max-width: 350px;
-}
-
-.categorie__image{  
-
-    background-size: contain;
-    margin-bottom: 10px;
-}
-
-.categorie__title{
-    cursor: pointer;
-}
-
-/*YOUTUBE SECTION*/
-
-.youtube {
-    background-color: rgba(11, 175, 200);
-    color: white;
-}
-
-.youtube__title {
-    margin-bottom: 20px;
-    border-bottom: 3px solid;
-}
 
 .yotube__subtitle {
     margin-bottom: 20px;
@@ -162,14 +88,14 @@ a {
 .videos__container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: left;
 }
 
 .video__card {
     width: 100%;
     max-width: 360px;
     background-color: white;
-    margin-bottom: 30px;
+    margin: 0 10px 30px;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
@@ -185,22 +111,7 @@ a {
     margin-bottom: 5px;
 }
 
-.videos__buttoms {
-    display: flex;
-    justify-content: space-around;
-}
-
-.videos__buttom {
-    color: black;
-    background-color: white;
-    padding: 8px;
-    border-radius: 3px;
-    font-weight: bold;
-    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
-    margin: 0 5px;
-}
-
-/*FOOTER*/
+/*footer*/
 
 footer {
     background-color: #a83bc8;
@@ -237,11 +148,7 @@ footer {
         display: none;
     }
 
-    .hero{
-        height: 50vh;
-    }
-
-    .videos__buttoms{
-        justify-content: end;
+    .videos h1{
+        text-align: left;
     }
 }
