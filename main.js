@@ -1,10 +1,6 @@
 const menuButtom = document.querySelector(".nav__menu");
 const menuItem = document.querySelectorAll(".nav__item");
 
-menuItem,addEventListener("click",()=>{
-
-})
-
 menuButtom.addEventListener("click",()=>{
     let menuItems = document.querySelector(".nav__items").classList.toggle("active");
 
